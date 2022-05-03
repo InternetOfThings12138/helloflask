@@ -1,0 +1,4 @@
+### 1.[windows本地端口127.0.0.1:5000被占用](https://blog.csdn.net/smbluesky/article/details/88975124)  
+1) `netstat -aon|findstr "5000"`
+2) `tasklist|findstr "5000"`
+3) `taskkill /pid <pid number> /F`
